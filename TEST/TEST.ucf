@@ -1,0 +1,28 @@
+# PlanAhead Generated IO constraints 
+NET "LED[0]" IOSTANDARD = LVCMOS33;
+NET "LED[1]" IOSTANDARD = LVCMOS33;
+NET "LED[2]" IOSTANDARD = LVCMOS33;
+NET "LED[3]" IOSTANDARD = LVCMOS33;
+NET "LED[4]" IOSTANDARD = LVCMOS33;
+NET "LED[5]" IOSTANDARD = LVCMOS33;
+NET "LED[6]" IOSTANDARD = LVCMOS33;
+NET "LED[7]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+NET "LED[0]" LOC = P142;
+NET "LED[1]" LOC = P141;
+NET "LED[2]" LOC = P139;
+NET "LED[3]" LOC = P138;
+NET "LED[4]" LOC = P135;
+NET "LED[5]" LOC = P134;
+NET "LED[6]" LOC = P132;
+NET "LED[7]" LOC = P130;
+
+# PlanAhead Generated IO constraints 
+NET "SYSCLK" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+NET "SYSCLK" LOC = P57;
+#Created by Constraints Editor (xc3s50an-tqg144-4) - 2014/12/26
+NET "SYSCLK" TNM_NET = SYSCLK;
+TIMESPEC TS_SYSCLK = PERIOD "SYSCLK" 50 MHz HIGH 50%;
